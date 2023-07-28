@@ -1,0 +1,1 @@
+o'tgan darsdagi vazifaklar qolganlarda to'llqi emas edi tugatib kelish berilgan edi men tugatgan edim alohida vazifa berilgani yo'q edi.

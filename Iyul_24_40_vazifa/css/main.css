@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen {
+  width: 1350;
+  height: 635px;
+  background: #e0a10d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen .filter {
+  background: white;
+  margin-right: 10px;
+  width: 200px;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09), 0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09), 0 32px 16px rgba(0, 0, 0, 0.09);
+}
+.screen .filter button {
+  margin: 10px;
+}
+.screen #main {
+  background: white;
+  width: 650px;
+  height: 400px;
+  border-radius: 10px;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09), 0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09), 0 32px 16px rgba(0, 0, 0, 0.09);
+}
+.screen #main .lds-dual-ring {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.screen #main .lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #e0a10d;
+  border-color: #e0a10d transparent #e0a10d transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.screen #main .job_card {
+  width: 90%;
+  height: 174px;
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  margin: 30px auto;
+  padding: 20px;
+  margin-bottom: 4px;
+}
+.screen #main .job_card .card_container {
+  height: 100%;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen #main .job_card .card_container .card_text {
+  width: 465px;
+  margin: 0 auto;
+}
+.screen #main .job_card .card_container img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+.screen #main .job_card:hover {
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09), 0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09), 0 32px 16px rgba(0, 0, 0, 0.09);
+  transition: 150ms;
+}
+
+/*# sourceMappingURL=main.css.map */
